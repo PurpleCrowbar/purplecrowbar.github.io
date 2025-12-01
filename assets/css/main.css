@@ -999,6 +999,29 @@ section,
   width: 1px;
 }
 
+.skill-icon {
+    width: 75px;
+}
+
+.skill-icon img {
+    max-width: 100%;
+    transition: transform 0.2s ease, filter 0.2s ease, opacity 0.2s ease;
+}
+
+.skill-icon span {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.skill-icon:hover img {
+    transform: translateY(-4px) scale(1.05);
+}
+
+.icon-directx { /* Hack to align DirectX logo with others */
+    margin-top: 18px;
+}
+
 /*--------------------------------------------------------------
 # Resume Section
 --------------------------------------------------------------*/
